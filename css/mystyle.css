@@ -1,0 +1,112 @@
+body {
+    height: 100%;
+    font-family: Georgia;
+    color: black;
+    background: White;
+    margin: 10px 130px;
+    display:flex; 
+      flex-direction:column;
+}
+
+#pole1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+#tekst1 {
+    color: #3b3431;
+    font-weight: bold;
+}
+
+.gora {
+    width: 100%;
+}
+
+.srodek {
+    width: 100%;
+}
+
+.dol {
+    width: 100%
+}
+
+header {
+    text-align: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7843e6;
+}
+
+li {
+    display: inline;
+    float: left;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    color: GhostWhite;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e64390;
+}
+
+section {
+    float: left;
+    width: 65%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 30px 21px;
+}
+
+aside {
+    float: left;
+    width: 29%;
+    height: 100%;
+    background-color: #b1e643;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.4;
+    padding: 10px;
+}
+
+aside a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article {
+    text-align: center;
+    color: #3b3431;
+}
+
+article a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin-top:auto;
+    text-align: center;
+    background-color: #e64390;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
