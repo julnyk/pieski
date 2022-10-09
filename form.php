@@ -40,10 +40,11 @@
                         echo $q . "to nie jest znak zodiaku, głuptasie.";
                     } else {
                         while($row = $result->next()) {
-							echo "<p>Twój znak zodiaku to <strong>" . $row["znak"]  . "</strong>!<br/><br/></p>" ;
-                            echo "<p>Daty: " . $row["dataur"]. "<br/><br/></p>" ;
+							echo "<p>Twój znak zodiaku to <strong>" . $row["znak"]  . "</strong>!<br/></p>" ;
+							echo "<img src=\"" . $row["zdj"] . "\" width=\"400\" height=\"400\"/> <br/>" ;
                             echo "<p>Twój zodiakalny pies to  <strong>" . $row["rasa"]. "</strong> &#128054 <br/><br/></p>" ;
-                            echo "<p>Kilka słów o Tobie, mój psyjacielu: <br/>" . $row["opis"]. "<br/><br/></p>" ;
+                            echo "<p>Daty: " . $row["dataur"]. "<br/></p>" ;
+							echo "<p>Kilka słów o Tobie, mój psyjacielu: <br/>" . $row["opis"]. "<br/></p>" ;
 							echo "<p><a href=\"". $row["piosenka"] . "\" target=\"_blank\">Kliknij, żeby właczyć Twoją piosenkę!</a></p>";
                         }
                     }
@@ -51,7 +52,7 @@
 				</article>
 			</section>
 			<aside>
-				<img src="moje zdjątko" alt="To ja">
+				<img src="../images/wynik.jpg?o" alt="To ja" width="315" height="315"/>
 				<h4 id="omnie"> O mnie </h4>
 				<p>Filolożka języka hiszpańskiego i niedoszła historyczka sztuki, zgłębiająca świat IT. Fanka wrestlingu i śląskiej sztuki prymitywnej. Zodiakalny bokser &#128521. Koneserka wczesnej epoki polskiego jutuba i entuzjastka usuwania drzwi podczas pożarów w Simsach. Właścicielka największego polskiego portalu internetowego poświęconego dopasowaniu zodiakalnemu do rasy psiura. Szukam swojej ścieżki zawodowej i nie boję się wskoczyć na głęboką wodę. Staram się nie brać życia zbyt poważnie (chyba że jesteś rekruterem, no to biorę zupełnie na poważnie). Gdybym była piosenką, to byłabym <a href="https://www.youtube.com/watch?v=B4c_SkROzzo" target="_blank">tą</a>.</p>
 			</aside>

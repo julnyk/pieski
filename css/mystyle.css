@@ -5,7 +5,7 @@ body {
     background: White;
     margin: 10px 130px;
     display:flex; 
-      flex-direction:column;
+    flex-direction:column;
 }
 
 #pole1 {
@@ -70,7 +70,7 @@ section {
     float: left;
     width: 65%;
     text-align: justify;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
     padding: 30px 21px;
 }
@@ -80,7 +80,7 @@ aside {
     width: 29%;
     height: 100%;
     background-color: #b1e643;
-    font-size: 13px;
+    font-size: 12px;
     text-align: justify;
     line-height: 1.4;
     padding: 10px;
@@ -109,4 +109,9 @@ footer {
     background-color: #e64390;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+.zdjpsa {
+    height: 400px;
+    width: 400px;
 }
